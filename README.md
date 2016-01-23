@@ -21,6 +21,8 @@ and add `wintersmith-plugin` to your config.json
 }
 ```
 
+Or just run `wintersmith install <plugin>`
+
 ## Running tests
 
 ```

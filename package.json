@@ -12,15 +12,15 @@
   "dependencies": {
   },
   "devDependencies": {
-    "coffee-script": ">1.5",
-    "vows": "0.7.x",
+    "coffee-script": ">1.9",
+    "vows": "0.8.x",
     "wintersmith": "2.x"
   },
   "peerDependencies": {
     "wintersmith": "2.x"
   },
   "scripts": {
-    "test": "./node_modules/.bin/vows test/* --spec",
-    "prepublish": "./bin/compile"
+    "test": "vows test/* --spec",
+    "prepublish": "coffee -o ./lib -b -c ./src"
   }
 }
