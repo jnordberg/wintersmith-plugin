@@ -12,7 +12,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "coffee-script": ">1.9",
+    "coffeescript": "~2.4.x",
     "vows": "0.8.x",
     "wintersmith": "2.x"
   },
